@@ -6,11 +6,13 @@ body {
   background-color: #000;
   color: #fff;
 }
+
 .main {
   display: flex;
   height: 100vh;
   padding: 0.5rem;
 }
+
 .sidebar {
   height: 700px;
   position: fixed;
@@ -19,6 +21,7 @@ body {
   width: 350px;
   margin-right: 1rem;
 }
+
 .main-content {
   margin-left: 22.5rem;
   background-color: #121212;
@@ -27,6 +30,7 @@ body {
   overflow: scroll;
   /* overflow-x: hidden; */
 }
+
 .music-player {
   background-color: #000;
   position: fixed;
@@ -34,6 +38,7 @@ body {
   height: 72px;
   width: 100%;
 }
+
 .navbar {
   height: 100px;
   background-color: #121212;
@@ -44,42 +49,53 @@ body {
   padding: 1.4rem 0.75rem;
   margin-top: 0.6rem;
 }
+
 .navbar a {
   text-decoration: none;
   color: #fff;
 }
+
 .iconspot {
   line-height: 3rem;
   padding-left: 0.7rem;
 }
+
 .iconspot i {
   font-size: 1.5rem;
 }
+
 .iconspot a {
   font-size: 0.9rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
 .iconspot:hover {
   cursor: pointer;
 }
+
 .tri a:hover {
   text-decoration: underline;
 }
+
 .search {
   opacity: 0.7;
 }
+
 .search:hover {
   opacity: 1;
 }
+
 .icon a {
   margin-left: 0rem;
 }
+
 .navbar-sectwo {
   background-color: #121212;
   height: 100%;
   border-radius: 1rem;
 }
+
 .navbar-2 {
   display: flex;
   align-items: center;
@@ -90,20 +106,24 @@ body {
   margin-top: 1rem;
   border-radius: 1rem;
 }
+
 .lib-icon img {
   height: 1.25rem;
   width: 1.25rem;
   margin-right: 0.7rem;
 }
+
 .lib-icon {
   margin-left: 1rem;
   font-size: 0.9rem;
   opacity: 0.75;
 }
+
 .lib-icon:hover {
   opacity: 1;
   cursor: pointer;
 }
+
 .plus {
   background-color: #121212;
   border-radius: 50%;
@@ -114,6 +134,7 @@ body {
   opacity: 0.75;
   margin-left: 6rem;
 }
+
 .right {
   background-color: #121212;
   border-radius: 50%;
@@ -129,11 +150,13 @@ body {
   cursor: pointer;
   background-color: rgb(41, 40, 40);
 }
+
 .right:hover {
   cursor: pointer;
   opacity: 1;
   background-color: rgb(41, 40, 40);
 }
+
 .boxex {
   height: 22.5rem;
   overflow: scroll;
@@ -152,19 +175,23 @@ body {
   width: 90%;
   margin-left: 0.6rem;
 }
+
 .box-2 {
   margin-top: 1.8rem;
   margin-bottom: 1rem;
 }
+
 .write1 {
   font-size: 1rem;
   font-weight: 600;
 }
+
 .write2 {
   opacity: 0.9;
   font-size: 0.85rem;
   font-weight: 400;
 }
+
 .badge-1 {
   background-color: #fff;
   border: none;
@@ -175,10 +202,12 @@ body {
   margin-top: 0.5rem;
   transition: transform 0.1s steps(1);
 }
+
 .badge-1:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
+
 .navbar-sticky {
   background-color: #121212;
   display: flex;
@@ -190,6 +219,7 @@ body {
   height: 80px;
   border-top-left-radius: 1.3rem;
 }
+
 .arrows-nav {
   background-color: #121212;
   display: flex;
@@ -200,6 +230,7 @@ body {
   height: 70px;
   background-color: #121212;
 }
+
 .bac-nav,
 .for-nav {
   background-color: #000;
@@ -209,6 +240,7 @@ body {
   height: 1rem;
   margin-left: 0.3rem;
 }
+
 .for-nav {
   margin-right: 0.5rem;
   padding-left: 0.8rem;
@@ -220,6 +252,7 @@ body {
   height: 1rem;
   width: 1rem;
 }
+
 .three-butn {
   width: 20rem;
   background-color: #121212;
@@ -228,6 +261,7 @@ body {
   align-items: center;
   margin-left: 40rem;
 }
+
 .explore {
   width: 8rem;
   border: none;
@@ -236,6 +270,7 @@ body {
   font-weight: 700;
   transition: transform 0.1s steps(1);
 }
+
 .installapp {
   width: 8rem;
   border: none;
@@ -246,9 +281,11 @@ body {
   background-color: #000;
   color: #fff;
 }
+
 .ops {
   padding-right: 0.3rem;
 }
+
 .person-img {
   background-color: #000;
   width: 1.8rem;
@@ -258,6 +295,7 @@ body {
   border-radius: 48%;
   transition: transform 0.1s steps(1);
 }
+
 .person-img:hover {
   transform: scale(1.1);
   cursor: pointer;
@@ -267,10 +305,12 @@ body {
   transform: scale(1.1);
   cursor: pointer;
 }
+
 .explore:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
+
 @media (max-width: 1000px) {
   .hide {
     display: none;
@@ -281,10 +321,12 @@ body {
   margin-left: 2rem;
   font-size: 1.6rem;
 }
+
 .card-1 {
   display: flex;
   flex-wrap: wrap;
 }
+
 .card-1-one {
   margin-top: 1.2rem;
   width: 200px;
@@ -294,6 +336,7 @@ body {
   margin-left: 2.3rem;
   border-radius: 1rem;
 }
+
 .card-1-one img {
   height: 200px;
   width: 200px;
@@ -301,13 +344,16 @@ body {
   z-index: 1;
   border-radius: 0.4rem;
 }
+
 .card-1-one:hover {
   cursor: pointer;
   background-color: rgb(38, 41, 41);
 }
+
 .opac {
   color: grey;
 }
+
 .bage {
   height: 200px;
   width: 200px;
@@ -315,6 +361,7 @@ body {
   display: flex;
   position: relative;
 }
+
 .img {
   position: relative;
 }
@@ -335,6 +382,7 @@ body {
   /* transform-origin: bottom center; */
   /* animation: myMove 0.3s linear 1; */
 }
+
 /* .transformed {
   transform: translateY(+20px);
 } */
@@ -348,6 +396,7 @@ body {
 .badge:hover {
   transform: scale(1.1);
 }
+
 .badge i {
   font-size: 1.9rem;
   color: #000;
@@ -356,21 +405,25 @@ body {
 .badgee {
   display: none;
 }
+
 .fro1 {
   margin-top: 2rem;
 }
+
 .footer {
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .line {
   width: 90%;
   height: 30%;
   border-top: 1px solid white;
   opacity: 0.4;
 }
+
 .daylight {
   display: flex;
   /* background-color: aqua; */
@@ -378,23 +431,27 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .img-song img {
   height: 2.8rem;
   /* margin-left: 0.5rem; */
   width: 2.8rem;
   object-fit: cover;
 }
+
 .song-name {
   display: flex;
   font-size: 0.7rem;
   flex-direction: column;
   margin-left: -1rem;
 }
+
 .song-name:nth-child(1) {
   /* background-color: chocolate; */
   margin-top: 1.3rem;
   font-weight: 600;
 }
+
 .song-name:nth-child(2) {
   /* background-color: purple; */
   margin-top: -0.6rem;
@@ -402,22 +459,27 @@ body {
   font-weight: 400;
   opacity: 0.8;
 }
+
 .heart-icon {
   /* margin-left: 3rem; */
   color: gray;
   /* background-color: bisque; */
 }
+
 .dash-bord {
   /* background-color: aqua; */
   margin-left: -1rem;
   color: gray;
 }
+
 .music-player {
   display: flex;
 }
+
 .play-ground {
   width: 60%;
 }
+
 .last-icons {
   width: 20%;
   display: flex;
@@ -426,14 +488,14 @@ body {
   color: gray;
   /* background-color: aq; */
 }
+
 .volume {
   margin-right: 0.6rem;
   appearance: none;
-  background: linear-gradient(
-    90deg,
-    rgb(30 215 96) 50%,
-    rgb(120, 115, 115) 50%
-  );
+  background: linear-gradient(90deg,
+      rgb(30 215 96) 50%,
+      0%,
+      rgb(120, 115, 115) 50%);
   cursor: pointer;
   width: 40%;
   border-radius: 20rem;
@@ -443,6 +505,7 @@ body {
   appearance: none;
   height: 0.2rem;
 }
+
 .volume::-webkit-slider-thumb {
   appearance: none;
   height: 0.8rem;
@@ -451,35 +514,42 @@ body {
   margin-top: -0.25rem;
   background-color: #fff;
 }
+
 .nio:hover {
   color: #fff;
   cursor: pointer;
 }
+
 .first-play {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 0.3rem;
 }
+
 .first-play img {
   height: 1rem;
   width: 1rem;
   margin-right: 2.6rem;
 }
+
 .first-play .bigger {
   height: 2.4rem;
   width: 2.4rem;
   margin-top: 0.3rem;
   transition: transform 0.1s steps(1);
 }
+
 .first-play .bigger:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
+
 .play-ground {
   display: flex;
   flex-direction: column;
 }
+
 .sec-play {
   display: flex;
   align-items: center;
@@ -489,22 +559,26 @@ body {
   color: rgb(120, 115, 115);
   margin-top: 0.34rem;
 }
+
 .speed-song {
   /* appearance: none; */
   width: 90%;
   height: 0.2rem;
   color: greenyellow;
 }
+
 .snow-opc {
   opacity: 0.5;
 }
+
 .snow-opc:hover {
   opacity: 1;
   cursor: pointer;
 }
+
 .speed-song {
   appearance: none;
-  background: linear-gradient(90deg, rgb(30 215 96) 0%, rgb(120, 115, 115) 50%);
+  background: linear-gradient(90deg, rgb(30 215 96)20%, 0%, rgb(120, 115, 115) 90%);
   cursor: pointer;
   border-radius: 20rem;
 }
